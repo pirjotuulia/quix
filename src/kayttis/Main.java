@@ -2,7 +2,6 @@ package kayttis;
 
 import kysymykset.Kysymys;
 import kysymykset.Kysymystenlukija;
-import Tekstikayttoliittyma;
 
 import java.util.List;
 import java.util.Scanner;
