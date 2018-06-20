@@ -25,9 +25,7 @@ public class Kysymys {
 
     public void setVastaus(String vastaus) {
         this.vastaus = vastaus;
-<<<<<<< HEAD
+
     }
 }
-=======
-    }}
->>>>>>> 59fb7e6651317a82e7496a6767a20431c0b546e5
+
