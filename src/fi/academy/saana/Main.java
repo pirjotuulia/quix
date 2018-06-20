@@ -1,16 +1,19 @@
+package fi.academy.saana;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
+
     static List<Kysymys> kysymykset = new ArrayList<>();
     static int pisteet;
 
     public static void main(String[] args) {
 
         Random random = new Random();
-        //Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         kysymykset.add(new Kysymys("Mikä on Java?", "Ohjelmointikieli", "Saari", "Hedelmä", "a"));
         kysymykset.add(new Kysymys("Mikä on olio?", "Mörkö", "Luokan ilmentymä", "Hedelmä", "b"));
         kysymykset.add(new Kysymys("Mitä tekee PrintWriter?", "Kirjoittaa tekstiä", "Kastelee kukkia", "Soittaa InputStreamReaderia", "a"));
