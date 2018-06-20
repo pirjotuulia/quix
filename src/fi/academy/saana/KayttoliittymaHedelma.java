@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Kayttoliittyma {
+public class KayttoliittymaHedelma {
     static List<Kysymys> kysymykset = new ArrayList<>();
     static int pisteet;
 
