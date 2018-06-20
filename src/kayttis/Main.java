@@ -3,6 +3,7 @@ package kayttis;
 import kayttis.Kayttoliittyma;
 import kysymykset.Kysymys;
 import kysymykset.Kysymystenlukija;
+import Tekstikayttoliittyma;
 
 import java.util.ArrayList;
 import java.util.List;
