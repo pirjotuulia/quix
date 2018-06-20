@@ -1,10 +1,17 @@
+package kysymys1;
+
 import java.util.List;
 import java.util.Scanner;
 import java.io.*;
 import javax.sound.sampled.*;
 
 public class Tekstikayttoliittyma {
-    private Kysymystenlukija kysymykset;
+    private Kysymystenlukija kysymystenlukija;
+
+//    public static void main(String[] args) {
+//        Tekstikayttoliittyma t = new Tekstikayttoliittyma();
+//        t.kaynnista();
+//    }
 
     public Tekstikayttoliittyma() {
         this.kysymykset = new Kysymystenlukija();

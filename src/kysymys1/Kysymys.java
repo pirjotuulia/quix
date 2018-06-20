@@ -26,3 +26,4 @@ public class Kysymys {
     public void setVastaus(String vastaus) {
         this.vastaus = vastaus;
     }
+}
