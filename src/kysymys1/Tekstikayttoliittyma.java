@@ -6,17 +6,13 @@ import java.io.*;
 import javax.sound.sampled.*;
 
 public class Tekstikayttoliittyma {
-    private Kysymystenlukija kysymystenlukija;
-
-//    public static void main(String[] args) {
-//        Tekstikayttoliittyma t = new Tekstikayttoliittyma();
-//        t.kaynnista();
-//    }
+    private Kysymystenlukija kysymykset;
 
     public Tekstikayttoliittyma() {
         this.kysymykset = new Kysymystenlukija();
 
     }
+
 
     public void kaynnista() {
         Scanner lukija = new Scanner(System.in);
