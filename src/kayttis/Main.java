@@ -1,12 +1,12 @@
 package kayttis;
 
-import kayttis.Kayttoliittyma;
 import kysymykset.Kysymys;
 import kysymykset.Kysymystenlukija;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import kysymys1.Tekstikayttoliittyma;
+import fi.academy.saana.KayttoliittymaHedelma;
 
 public class Main {
 
@@ -16,7 +16,7 @@ public class Main {
         String vastaus = lukija.nextLine();
         if (vastaus.equals("h")) {
             //käynnistä Saanan peli;
-            Kayttoliittyma klh = new Kayttoliittyma();
+            KayttoliittymaHedelma klh = new KayttoliittymaHedelma();
             klh.kaynnista();
         } else if (vastaus.equals("s")) {
             Kysymystenlukija kys = new Kysymystenlukija();
