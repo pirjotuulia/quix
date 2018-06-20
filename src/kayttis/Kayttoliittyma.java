@@ -45,7 +45,7 @@ public class Kayttoliittyma {
                     break;
                 }
             }
-            System.out.println("Oikeita vastauksia " + oikein + ", vääriä vastauksia " + vaarin + ".\nc");
+            System.out.println("Oikeita vastauksia " + oikein + ", vääriä vastauksia " + vaarin + ".\n");
         }
     }
 
