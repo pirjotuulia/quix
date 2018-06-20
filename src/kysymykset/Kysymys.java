@@ -1,31 +1,23 @@
-package kysymykset;
-
-import java.util.List;
+package kysymys;
 
 public class Kysymys {
-    private String kysymysteksti;
-    private List<String> vastausvaihtoehdot;
-    private int oikeanVaihtoehdonIndeksi;
+    private String vastaus;
+    private String kysymys;
 
-    public Kysymys(String kysymysteksti, List<String> vastausvaihtoehdot, int oikeanVaihtoehdonIndeksi) {
-            this.kysymysteksti = kysymysteksti;
-            this.vastausvaihtoehdot = vastausvaihtoehdot;
-            this.oikeanVaihtoehdonIndeksi = oikeanVaihtoehdonIndeksi;
-    }
 
-    public String getKysymysteksti() {
-        return kysymysteksti;
-    }
-
-    public List<String> getVastausvaihtoehdot() {
-        return vastausvaihtoehdot;
-    }
-
-    public String oikeaVastausMerkkijonona() {
-        return ""+ (char)(this.oikeanVaihtoehdonIndeksi + 97);
-    }
-
-    public String vaihtoehtoKirjaimena(int numero) {
-        return ""+ (char)(numero + 97);
-    }
+    public Kysymys(String kysymys, String vastaus) {
+        this.kysymys = kysymys;
+        this.vastaus = vastaus;
 }
+
+    public void setKysymys(String kysymys) {
+        this.kysymys = kysymys;
+    }
+
+    public String getVastaus() {
+        return vastaus;
+    }
+
+    public void setVastaus(String vastaus) {
+        this.vastaus = vastaus;
+    }

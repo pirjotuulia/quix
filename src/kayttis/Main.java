@@ -17,5 +17,8 @@ public class Main {
         List<Kysymys> kysymykset = kys.kysymyslista();
         Kayttoliittyma kl = new Kayttoliittyma(kysymykset);
         kl.kaynnista();
+
+//        Tekstikayttoliittyma t = new Tekstikayttoliittyma();
+//        t.kaynnista();
     }
 }

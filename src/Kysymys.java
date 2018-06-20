@@ -1,4 +1,5 @@
 public class Kysymys {
+
     private String kysymys;
     private String vastaus1;
     private String vastaus2;
