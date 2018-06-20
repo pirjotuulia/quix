@@ -16,7 +16,8 @@ public class Main {
         String vastaus = lukija.nextLine();
         if (vastaus.equals("h")) {
             //käynnistä Saanan peli;
-
+            Kayttoliittyma klh = new Kayttoliittyma();
+            klh.kaynnista();
         } else if (vastaus.equals("s")) {
             Kysymystenlukija kys = new Kysymystenlukija();
             List<Kysymys> kysymykset = kys.kysymyslista();
